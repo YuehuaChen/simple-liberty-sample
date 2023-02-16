@@ -9,7 +9,7 @@
     <webApplication location="guide-getting-started.war" contextRoot="/dev" />
     <mpMetrics authentication="false"/>
 
-    <logging consoleLogLevel="INFO" traceSpecification="com.ibm.ws.microprofile.health.*=all" />
+    <logging consoleLogLevel="INFO"/>
 
     <httpEndpoint host="*" httpPort="${default.http.port}" 
         httpsPort="${default.https.port}" id="defaultHttpEndpoint"/>

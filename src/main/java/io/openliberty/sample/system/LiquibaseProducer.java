@@ -18,7 +18,7 @@ public class LiquibaseProducer {
     @LiquibaseType
     public CDILiquibaseConfig createConfig() {
         CDILiquibaseConfig config = new CDILiquibaseConfig();
-        config.setChangeLog("liquibase/parser/core/xml/simpleChangeLog.xml");
+        config.setChangeLog("db/simpleChangeLog.xml");
         return config;
     }
 
