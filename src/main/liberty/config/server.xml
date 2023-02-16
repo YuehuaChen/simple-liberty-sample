@@ -6,7 +6,7 @@
     <variable name="default.http.port" defaultValue="9080"/>
     <variable name="default.https.port" defaultValue="9443"/>
 
-    <webApplication location="guide-getting-started.war" contextRoot="/dev" />
+    <webApplication location="simple-liberty-sample.war" contextRoot="/dev" />
     <mpMetrics authentication="false"/>
 
     <logging consoleLogLevel="INFO" traceSpecification="com.ibm.ws.microprofile.health.*=all" />
